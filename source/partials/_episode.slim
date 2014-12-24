@@ -1,0 +1,12 @@
+.episode
+  a href=episode.url
+    h2 = episode.long_title
+  div.metadate
+    p Published at #{episode.published_date.to_formatted_s(:long_ordinal)}
+    p Recorded at #{episode.recorded_on.to_formatted_s(:long_ordinal)}
+    ul.podcasters
+      - for podcaster in episode.podcasters
+        li
+          a href=podcaster.url = podcaster.name
+  div.show_notes
+    = episode.html_show_notes
