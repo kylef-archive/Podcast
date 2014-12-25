@@ -15,6 +15,7 @@ gem 'rake'
 gem 'sass'
 
 gem 'slim', '< 2.0'
+gem 'builder'
 gem 'yard', "~> 0.8.6.2"
 
 gem 'activesupport'

@@ -1,0 +1,23 @@
+---
+title: CocoaPods as? Podcast
+website: http://thepodcast.co
+feed_url: http://thepodcast.co/feed
+cover_art: http://static.thepodcast.co/the_podcast.png
+email: podcast@segiddins.me
+language: en
+subtitle: The (unofficial) CocoaPods Podcast
+summary: >
+  The Podcast is a podcast about what’s new in CocoaPods development, along
+  with the wider Cocoa community, hosted by CocoaPods core team members Kyle
+  Fuller and Samuel Giddins.
+explicit: yes
+categories:
+  - Technology
+  - Technology.Gadgets
+  - Technology.Tech News
+keywords:
+  - CocoaPods
+  - Cocoa
+podcasters:
+  - kylefuller
+  - segiddins

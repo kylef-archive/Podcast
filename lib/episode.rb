@@ -7,6 +7,8 @@ module PodCast
       recorded_on
       published_date
       podcasters
+      description
+      source
     ).freeze
 
     ATTRS.each do |a|
@@ -41,8 +43,11 @@ module PodCast
     end
 
     def html_show_notes
-      require 'redcarpet'
       @html_show_notes ||= PodCast.markdown.render(show_notes)
+    end
+
+    def html_description
+      @html_description ||= PodCast.markdown.render(description)
     end
 
     def self.all

@@ -19,6 +19,11 @@ require 'podcast'
 helpers do
   def episodes; PodCast::Episode.all; end
   def podcasters; PodCast::Podcaster.all; end
+  def podcast; PodCast.podcast; end
+  def sentence(ary); ary.to_sentence(two_words_connector: ' & '); end
+  def podcaster_links(podcasters)
+    sentence(podcasters.map { |p| link_to(p.name, p.url) })
+  end
 end
 
 PodCast::Episode.all.each do |episode|
