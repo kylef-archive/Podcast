@@ -51,7 +51,10 @@ module PodCast
     end
 
     def self.all
-      @all ||= PodCast.episodes_path.children.map { |c| from_file(c) }.sort_by(&:number)
+      @all ||= PodCast.episodes_path.children
+        .select { |c| c.extname() == '.md' }
+        .map { |c| from_file(c) }
+        .sort_by(&:number)
     end
 
     def self.find(number)
