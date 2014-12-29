@@ -4,13 +4,13 @@
     <title>CocoaPods as? Podcast</title>
     <link>http://thepodcast.co</link>
     <language>en</language>
-    <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Dec 2014 00:50:43 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Dec 2014 10:50:32 -0500</lastBuildDate>
     <copyright>&amp;#xA9; 2014 Kyle Fuller &amp; Samuel Giddins</copyright>
     <itunes:subtitle>The (unofficial) CocoaPods Podcast</itunes:subtitle>
     <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
     <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
-    <itunes:explicit>true</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
     <itunes:summary>The Podcast is a show about what’s new in CocoaPods development, along with the wider Cocoa community. Hosted by CocoaPods core team members Kyle Fuller and Samuel Giddins.
 </itunes:summary>
     <description>
@@ -39,11 +39,11 @@
 </itunes:summary>
       <itunes:image href="http://static.thepodcast.co/cocoapods_as_podcast.png"/>
       <enclosure url="http://static.thepodcast.co/1.m4a" length="60321624" type="audio/x-m4a"/>
-      <guid isPermalink="true">http://thepodcast.co/1</guid>
-      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://thepodcast.co/1</guid>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
       <itunes:duration>3725</itunes:duration>
       <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
-      <itunes:explicit>true</itunes:explicit>
+      <itunes:explicit>yes</itunes:explicit>
       <description>
         <![CDATA[<p>This week, Kyle and Samuel introduce the show and recap what has happened in 2014. They also cover the long-awaited CocoaPods 0.36 Beta with Swift support.</p>
 ]]>
