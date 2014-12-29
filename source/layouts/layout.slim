@@ -1,0 +1,16 @@
+doctype html
+html lang="en-en"
+  head
+    title = @title || current_page.data.title || 'PodCast'
+    meta charset='utf-8'
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    == stylesheet_link_tag "normalize", "highlight", "all"
+    == javascript_include_tag  "all"
+  body class=page_classes
+    .podcast
+      a href='/'
+        h1 = podcast.title
+      h4 = podcast.subtitle
+      .by = "Hosted by #{podcaster_links(podcast.authors)}"
+      .summary = podcast.summary_html
+    == yield

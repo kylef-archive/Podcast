@@ -1,0 +1,4 @@
+.recent_episodes
+  h2 Recent Episodes
+  - for episode in episodes.reverse_each
+    = partial('partials/episode', locals: {episode: episode})
