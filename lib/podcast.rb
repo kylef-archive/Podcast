@@ -22,6 +22,7 @@ module PodCast
       podcasters
       keywords
       cover_art
+      twitter
     ).freeze
 
     ATTRS.each do |a|
