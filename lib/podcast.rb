@@ -1,6 +1,7 @@
 require 'pathname'
 require 'uri'
 require 'redcarpet'
+require 'redcarpet/render_strip'
 require 'rouge'
 
 module PodCast
@@ -49,6 +50,10 @@ module PodCast
       @summary_html ||= PodCast.markdown.render(summary)
     end
 
+    def summary_text
+      @summary_text ||= PodCast.markdown_plain.render(summary)
+    end
+
     def authors
       podcasters.sort_by(&:name)
     end
@@ -69,12 +74,20 @@ module PodCast
     include Redcarpet::Render::SmartyPants
   end
 
+  class Plain < Redcarpet::Render::StripDown
+    include Redcarpet::Render::SmartyPants
+  end
+
   def self.podcast
     @podcast ||= Podcast.from_file(Pathname(__FILE__).parent.parent + 'podcast.yml')
   end
 
   def self.markdown
     @markdown ||= Redcarpet::Markdown.new(HTML, MARKDOWN_OPTIONS)
+  end
+
+  def self.markdown_plain
+    @markdown_plain ||= Redcarpet::Markdown.new(Plain, MARKDOWN_OPTIONS)
   end
 
   def self.episodes_path

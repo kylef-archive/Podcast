@@ -50,6 +50,10 @@ module PodCast
       @html_description ||= PodCast.markdown.render(description)
     end
 
+    def description_text
+      @description_text ||= PodCast.markdown_plain.render(description)
+    end
+
     def self.all
       @all ||= PodCast.episodes_path.children
         .select { |c| c.extname() == '.md' }
