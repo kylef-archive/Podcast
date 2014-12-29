@@ -1,7 +1,7 @@
 ---
 title: CocoaPods as? Podcast
 website: http://thepodcast.co
-feed_url: http://thepodcast.co/feed
+feed_url: http://thepodcast.co/feed.rss
 cover_art: http://static.thepodcast.co/cocoapods_as_podcast.png
 twitter: cpascast
 email: podcast@segiddins.me
