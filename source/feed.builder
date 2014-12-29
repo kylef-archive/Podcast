@@ -23,7 +23,7 @@ xml.rss(
     xml.itunes :subtitle, podcast.subtitle
     xml.itunes :author, sentence(podcast.podcasters.map(&:name))
     xml.itunes :keywords, podcast.keywords.join(', ')
-    xml.itunes :explicit, podcast.explicit
+    xml.itunes :explicit, podcast.explicit ? 'yes' : 'no'
     xml.itunes :summary, podcast.summary_text
     xml.description { xml.cdata!(podcast.summary_html) }
     xml.itunes :owner do
@@ -57,11 +57,11 @@ xml.rss(
         xml.itunes :summary, episode.description_text
         xml.itunes :image, href: podcast.cover_art
         xml.enclosure url: episode.source[:url], length: episode.source[:length], type: episode.source[:type]
-        xml.guid podcast.website + episode.url, isPermalink: 'true'
+        xml.guid podcast.website + episode.url, isPermaLink: 'true'
         xml.pubDate episode.published_date.to_datetime.to_s(:rfc822)
         xml.itunes :duration, episode.source[:duration]
         xml.itunes :keywords, podcast.keywords.join(', ')
-        xml.itunes :explicit, podcast.explicit
+        xml.itunes :explicit, podcast.explicit ? 'yes' : 'no'
         xml.description { xml.cdata!(episode.html_description) }
         xml.content :encoded do
            xml.cdata!(episode.html_description + '<br />' + episode.html_show_notes)
