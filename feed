@@ -4,8 +4,8 @@
     <title>CocoaPods as? Podcast</title>
     <link>http://thepodcast.co</link>
     <language>en</language>
-    <pubDate>Fri, 26 Dec 2014 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Dec 2014 00:49:32 -0500</lastBuildDate>
+    <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Dec 2014 00:50:43 -0500</lastBuildDate>
     <copyright>&amp;#xA9; 2014 Kyle Fuller &amp; Samuel Giddins</copyright>
     <itunes:subtitle>The (unofficial) CocoaPods Podcast</itunes:subtitle>
     <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
@@ -31,35 +31,61 @@
     </itunes:category>
     <atom:link href="http://thepodcast.co/feed" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Title</title>
+      <title>2014 In Review</title>
       <link>http://thepodcast.co/1</link>
       <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
-      <itunes:subtitle>CocoaPods as? Podcast: Title</itunes:subtitle>
-      <itunes:summary>Kyle and Samuel introduce the show.
+      <itunes:subtitle>CocoaPods as? Podcast: 2014 In Review</itunes:subtitle>
+      <itunes:summary>This week, Kyle and Samuel introduce the show and recap what has happened in 2014. They also cover the long-awaited CocoaPods 0.36 Beta with Swift support.
 </itunes:summary>
       <itunes:image href="http://static.thepodcast.co/cocoapods_as_podcast.png"/>
       <enclosure url="http://static.thepodcast.co/1.m4a" length="60321624" type="audio/x-m4a"/>
       <guid isPermalink="true">http://thepodcast.co/1</guid>
-      <pubDate>Fri, 26 Dec 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
       <itunes:duration>3725</itunes:duration>
       <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
       <itunes:explicit>true</itunes:explicit>
       <description>
-        <![CDATA[<p>Kyle and Samuel introduce the show.</p>
+        <![CDATA[<p>This week, Kyle and Samuel introduce the show and recap what has happened in 2014. They also cover the long-awaited CocoaPods 0.36 Beta with Swift support.</p>
 ]]>
       </description>
       <content:encoded>
-        <![CDATA[<p>Kyle and Samuel introduce the show.</p>
-<br /><p>Hi, my name is <em>Kyle</em>.</p>
+        <![CDATA[<p>This week, Kyle and Samuel introduce the show and recap what has happened in 2014. They also cover the long-awaited CocoaPods 0.36 Beta with Swift support.</p>
+<br /><p>We get started with the first episode by going over what’s happened in <a href="http://blog.cocoapods.org/Stats-2014/">2014</a>.</p>
+
+<h2>Year in Review</h2>
+
+<h3>Web</h3>
+
+<p>First of all, we run down what’s changed in the CocoaPods web properties. Including the <a href="http://blog.cocoapods.org/CocoaPods-Trunk">introduction of Trunk</a>, our <a href="http://blog.cocoapods.org/search-engine">search engine</a>, and the brand new <a href="http://blog.cocoapods.org/metrics-api">metrics API</a> where going over the <a href="http://metrics.cocoapods.org/api/v1/pods/QueryKit">metrics for QueryKit</a>. We then cover our new <a href="http://status.cocoapods.org/">status page</a> and then go over Orta’s <a href="http://blog.cocoapods.org/CocoaDocs2-Launch">redesign of CocoaDocs</a> and talk about what’s upcoming for Swift documentation with <a href="http://github.com/realm/jazzy">Jazzy</a>.</p>
+
+<h3>Events</h3>
+
+<p>There has been an outstanding amount of events hosted by the CocoaPods team over the year. Starting with <a href="http://blog.cocoapods.org/CocoaPods-WWDC-Party">The CocoaPodsAlt State of the Union</a>, our own WWDC party. In the same week, we also hosted a <a href="http://blog.cocoapods.org/Hackathon-Summary">Pod Roulette Hackathon (San Francisco)</a> and <a href="http://blog.cocoapods.org/CocoaPods-AltLabs/">CocoaPods AltLabs</a>. We then go over one of our favourite events, the <a href="http://blog.cocoapods.org/CocoaPods-Bug-Bash">Bug Bash</a> where Samuel first took the dive into the CocoaPods code-base.</p>
+
+<p>Orta has had a busy year, he hosted a <a href="http://blog.cocoapods.org/The-Kommittee-NYC/">Cocoa Komittee (New York)</a> and then various CocoaKucha’s over the world. The first one in <a href="http://blog.cocoapods.org/Cocoa-Kucha-2/">London</a>, then shortly after another in <a href="http://blog.cocoapods.org/Cocoa-Kucha-3-Berlin/">Berlin</a>. He then hosted one of our favourites in <a href="http://blog.cocoapods.org/Cocoa-Kucha-4">San Francisco</a> where <a href="https://twitter.com/kattrali">Delisa</a> talked about <a href="https://speakerdeck.com/kattrali/bad-cocoa">Bad Cocoa</a></p>
+
+<h3>CocoaPods</h3>
+
+<p>2014 has been a huge step for the tool itself, we’ve made a huge strive towards version 1.0. We talk about <a href="http://blog.cocoapods.org/CocoaPods-0.28/">CocoaPods plugins</a> and then one of the biggest features of the year <a href="http://blog.cocoapods.org/CocoaPods-0.34/">per build configuration Pods in CocoaPods 0.34</a>. Both <a href="http://blog.cocoapods.org/SoundCloud">SoundCloud</a> and <a href="http://blog.cocoapods.org/Stripe-Open-Source-Retreat">Stripe</a> have sponsored work on CocoaPods this year. Stripe sponsored Samuel to work on the new <a href="http://blog.cocoapods.org/CocoaPods-0.35/">dependency resolution algorithm Molinillo, in CocoaPods 0.35</a></p>
+
+<h2>The Changelog</h2>
+
+<p>A lot has changed in <a href="https://github.com/CocoaPods/CocoaPods/blob/0.36.0.beta.1/CHANGELOG.md">CocoaPods 0.36 beta.1</a>, it shipped with the long-awaited Swift support which make’s use of Xcode frameworks. If you’re a Pod author, we urge you to check out the <a href="http://blog.cocoapods.org/Pod-Authors-Guide-to-CocoaPods-Frameworks">Pod Authors Guide to CocoaPods Frameworks</a> to read about possible breaking changes.</p>
+
+<h2>Favourite Pods</h2>
+
+<p>This week, we go over some of the pods that we&rsquo;ve been working on this year.</p>
+
+<p>Kyle’s been busy pushing Swift Pod’s from back before CocoaPods could handle Swift. He talks about some of his favourites:</p>
 
 <ul>
-<li>this</li>
-<li>that</li>
+<li><a href="https://github.com/kylef/URITemplate.swift">URITemplate</a></li>
+<li><a href="https://github.com/kylef/Stencil">Stencil</a></li>
+<li><a href="http://querykit.org/">QueryKit</a></li>
+<li><a href="https://github.com/kylef/PathKit">PathKit</a></li>
 </ul>
-<pre class="highlight ruby"><code><span class="nb">puts</span> <span class="s1">'hello'</span>
-</code></pre>
 
-<p><a href="https://github.com/chrismaddern/VENSnowOverlayView">VENSnowOverlay</a> &ndash; &ldquo;A snowy UIView overlay to make your apps Christmassy&rdquo;</p>
+<p>Samuel talks about <a href="http://restkit.org/">RestKit</a>, the Pod that first exposed CocoaPods to him and started his journey into open source.</p>
 ]]>
       </content:encoded>
     </item>
