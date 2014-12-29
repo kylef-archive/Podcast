@@ -39,7 +39,7 @@ module PodCast
     end
 
     def long_title
-      "##{number}: #{title}"
+      "Episode #{number} - #{title}"
     end
 
     def html_show_notes

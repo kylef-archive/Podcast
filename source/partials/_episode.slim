@@ -2,9 +2,7 @@
   a href=episode.url
     h2 = episode.long_title
   .metadate
-    p Published at #{episode.published_date.to_formatted_s(:long_ordinal)}
-    p Recorded at #{episode.recorded_on.to_formatted_s(:long_ordinal)}
-    p = podcaster_links(episode.podcasters)
+    small #{episode.published_date.to_formatted_s(:long_ordinal)}
   .description
     = episode.html_description
   .player
