@@ -14,7 +14,7 @@ html lang="en-en"
         a href='/'
           h1 = podcast.title
         h4 = podcast.subtitle
-        <a class="twitter-follow-button" href="https://twitter.com/#{podcast.twitter}" data-show-count="false" data-lang="en">Follow @#{podcast.twitter}</a>
+        = twitter_button(podcast.twitter)
         .by = "Hosted by #{podcaster_links(podcast.authors)}"
         .summary = podcast.summary_html
     section
