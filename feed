@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>CocoaPods as? Podcast</title>
+    <link>http://thepodcast.co</link>
+    <language>en</language>
+    <pubDate>Fri, 26 Dec 2014 00:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Dec 2014 00:49:32 -0500</lastBuildDate>
+    <copyright>&amp;#xA9; 2014 Kyle Fuller &amp; Samuel Giddins</copyright>
+    <itunes:subtitle>The (unofficial) CocoaPods Podcast</itunes:subtitle>
+    <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
+    <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:summary>The Podcast is a show about what’s new in CocoaPods development, along with the wider Cocoa community. Hosted by CocoaPods core team members Kyle Fuller and Samuel Giddins.
+</itunes:summary>
+    <description>
+      <![CDATA[<p>The Podcast is a show about what’s new in CocoaPods development, along with the wider Cocoa community. Hosted by CocoaPods core team members Kyle Fuller and Samuel Giddins.</p>
+]]>
+    </description>
+    <itunes:owner>
+      <itunes:name>Kyle Fuller &amp; Samuel Giddins</itunes:name>
+      <itunes:email>podcast@segiddins.me</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://static.thepodcast.co/cocoapods_as_podcast.png"/>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Gadgets"/>
+    </itunes:category>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <atom:link href="http://thepodcast.co/feed" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Title</title>
+      <link>http://thepodcast.co/1</link>
+      <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
+      <itunes:subtitle>CocoaPods as? Podcast: Title</itunes:subtitle>
+      <itunes:summary>Kyle and Samuel introduce the show.
+</itunes:summary>
+      <itunes:image href="http://static.thepodcast.co/cocoapods_as_podcast.png"/>
+      <enclosure url="http://static.thepodcast.co/1.m4a" length="60321624" type="audio/x-m4a"/>
+      <guid isPermalink="true">http://thepodcast.co/1</guid>
+      <pubDate>Fri, 26 Dec 2014 00:00:00 +0000</pubDate>
+      <itunes:duration>3725</itunes:duration>
+      <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
+      <itunes:explicit>true</itunes:explicit>
+      <description>
+        <![CDATA[<p>Kyle and Samuel introduce the show.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Kyle and Samuel introduce the show.</p>
+<br /><p>Hi, my name is <em>Kyle</em>.</p>
+
+<ul>
+<li>this</li>
+<li>that</li>
+</ul>
+<pre class="highlight ruby"><code><span class="nb">puts</span> <span class="s1">'hello'</span>
+</code></pre>
+
+<p><a href="https://github.com/chrismaddern/VENSnowOverlayView">VENSnowOverlay</a> &ndash; &ldquo;A snowy UIView overlay to make your apps Christmassy&rdquo;</p>
+]]>
+      </content:encoded>
+    </item>
+  </channel>
+</rss>
