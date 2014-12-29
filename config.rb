@@ -24,6 +24,9 @@ helpers do
   def podcaster_links(podcasters)
     sentence(podcasters.map { |p| link_to(p.name, p.url) })
   end
+  def twitter_button(twitter)
+    %(<a class="twitter-follow-button" href="https://twitter.com/#{twitter}" data-show-count="false" data-lang="en">Follow @#{twitter}</a>)
+  end
 end
 
 PodCast::Episode.all.each do |episode|
