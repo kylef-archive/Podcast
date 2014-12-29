@@ -5,7 +5,7 @@
     <link>http://thepodcast.co</link>
     <language>en</language>
     <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Dec 2014 10:50:32 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2014 10:54:20 -0500</lastBuildDate>
     <copyright>&amp;#xA9; 2014 Kyle Fuller &amp; Samuel Giddins</copyright>
     <itunes:subtitle>The (unofficial) CocoaPods Podcast</itunes:subtitle>
     <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
@@ -29,7 +29,7 @@
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
-    <atom:link href="http://thepodcast.co/feed" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://thepodcast.co/feed.rss" rel="self" type="application/rss+xml"/>
     <item>
       <title>2014 In Review</title>
       <link>http://thepodcast.co/1</link>
