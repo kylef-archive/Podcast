@@ -18,7 +18,7 @@ xml.rss(
     xml.link podcast.website
     xml.language podcast.language
     xml.pubDate episodes.last.published_date.to_datetime.to_s(:rfc822)
-    xml.lastBuildDate episodes.last.published_date.to_datetime.to_s(:rfc822)
+    xml.lastBuildDate DateTime.now.to_s(:rfc822)
     xml.copyright "&#xA9; #{Date.today.year} #{sentence(podcast.podcasters.map(&:name))}"
     xml.itunes :subtitle, podcast.subtitle
     xml.itunes :author, sentence(podcast.podcasters.map(&:name))
