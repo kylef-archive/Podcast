@@ -23,6 +23,7 @@ module PodCast
       keywords
       cover_art
       twitter
+      itunes_url
     ).freeze
 
     ATTRS.each do |a|
