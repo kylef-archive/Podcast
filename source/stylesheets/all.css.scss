@@ -37,6 +37,11 @@ header {
   background: #6cabe5;
   padding: 15px 0;
 
+  .cover_art {
+    float:left;
+    padding-right: 20px;
+  }
+
   a {
     color: #000;
     border-bottom: 1px solid #000;
