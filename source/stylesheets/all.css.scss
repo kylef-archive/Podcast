@@ -78,3 +78,20 @@ h1 {
 .podcast, .episode, .recent_episodes {
 }
 
+.links {
+  nav {
+    text-align: center;
+    list-style-position: outside;
+    ul, ol {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          margin: 0 0.8em;
+        }
+      }
+    }
+  }
+}
