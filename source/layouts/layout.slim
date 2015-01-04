@@ -26,6 +26,7 @@ html lang="en-en"
     meta name='author' content=podcast.authors.to_sentence
     - for name, content in twitter_card
       meta name="twitter:#{name.to_s}" content=content
+    link rel='alternate' type='application/rss+xml' title=podcast.title href='/feed.rss'
     link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css"
     == stylesheet_link_tag "normalize", "highlight", "all"
     == javascript_include_tag  "all"
