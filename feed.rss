@@ -5,11 +5,11 @@
     <link>http://thepodcast.co</link>
     <language>en</language>
     <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2015 11:43:48 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2015 10:28:57 -0400</lastBuildDate>
     <copyright>&amp;#xA9; 2015 Kyle Fuller &amp; Samuel Giddins</copyright>
     <itunes:subtitle>The (unofficial) CocoaPods Podcast</itunes:subtitle>
     <itunes:author>Kyle Fuller &amp; Samuel Giddins</itunes:author>
-    <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
+    <itunes:keywords>CocoaPods, Cocoa, Objective-C, Swift, package manager, libraries, frameworks, pods, podcast, core team</itunes:keywords>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:summary>The Podcast is a show about what’s new in CocoaPods development, along with the wider Cocoa community. Hosted by CocoaPods core team members Kyle Fuller and Samuel Giddins.
 </itunes:summary>
@@ -42,7 +42,7 @@
       <guid isPermaLink="true">http://thepodcast.co/1</guid>
       <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
       <itunes:duration>3725</itunes:duration>
-      <itunes:keywords>CocoaPods, Cocoa</itunes:keywords>
+      <itunes:keywords>CocoaPods, Cocoa, Objective-C, Swift, package manager, libraries, frameworks, pods, podcast, core team</itunes:keywords>
       <itunes:explicit>yes</itunes:explicit>
       <description>
         <![CDATA[<p>This week, Kyle and Samuel introduce the show and recap what has happened in 2014. They also cover the long-awaited CocoaPods 0.36 Beta with Swift support.</p>
