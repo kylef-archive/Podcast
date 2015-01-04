@@ -3,7 +3,15 @@ ruby:
     'Episodes' => '/',
     'Twitter' => 'https://twitter.com/' + podcast.twitter,
     'RSS' => '/feed.rss',
-    'iTunes' => podcast.itunes_url
+    'iTunes' => podcast.itunes_url,
+  }
+  twitter_card = {
+    card: 'summary',
+    site: podcast.title,
+    creator: podcast.title,
+    title: @title || current_page.data.title || podcast.title,
+    description: podcast.subtitle,
+    url: podcast.website,
   }
 
 doctype html
@@ -13,6 +21,11 @@ html lang="en-en"
     meta charset='utf-8'
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
     meta name="viewport" content="initial-scale=1"
+    meta name='keywords' content=podcast.keywords.join(' ')
+    meta name='description' content=podcast.subtitle
+    meta name='author' content=podcast.authors.to_sentence
+    - for name, content in twitter_card
+      meta name="twitter:#{name.to_s}" content=content
     link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css"
     == stylesheet_link_tag "normalize", "highlight", "all"
     == javascript_include_tag  "all"
